@@ -1,12 +1,11 @@
 import { Link } from "@heroui/link";
-import { Snippet } from "@heroui/snippet";
-import { Code } from "@heroui/code";
+// import { Snippet } from "@heroui/snippet";
+// import { Code } from "@heroui/code";
 import { button as buttonStyles } from "@heroui/theme";
-import Image from "next/image";
 
 import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
+// import { title, subtitle } from "@/components/primitives";
+// import { GithubIcon } from "@/components/icons";
 // import { SparklesCore } from "@/components/UIcomponents/Sparkles";
 import { TextGenerateEffect } from "@/components/UIcomponents/TextGenerateEffect";
 import { WobbleCard } from "@/components/UIcomponents/WobbleCard2";
@@ -28,8 +27,8 @@ export default function Home() {
         </div>
       </div> */}
       <WobbleCard
-        containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
         className=""
+        containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
       >
         <div className="max-w-xs">
           <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
