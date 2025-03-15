@@ -1,11 +1,14 @@
-import { Fira_Code as FontMono, Inter as FontSans } from "next/font/google";
+// import localFont from "next/font/local";
+// const myFont = localFont({ src: "/public/fonts/nothing-mono.otf" });
 
-export const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
+// export const fontMono = localFont({
+//   src: `${myFont}`,
+//   variable: "--font-mono",
+//   display: "swap",
+// });
+import localFont from "next/font/local";
 
-export const fontMono = FontMono({
-  subsets: ["latin"],
-  variable: "--font-mono",
+export const fontNothing = localFont({
+  src: "../public/fonts/nothing-mono.woff2",
+  variable: "--font-nothing",
 });
